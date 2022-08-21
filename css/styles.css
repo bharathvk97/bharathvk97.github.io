@@ -102,8 +102,10 @@ html,body {
 
 .header__content__block{
   font-size: 50px;
+  text-align: center;
   font-weight: bold;
   color: #fff;
+  margin-top: 0;
 }
 
 .header__content__title{
@@ -250,7 +252,7 @@ html,body {
 .about__description{
   font-size: 16px;
   color: #636262;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
   border-bottom: 1px #C1C1C1 dashed;
   display: block;
 }
@@ -350,7 +352,7 @@ html,body {
 }
 
 .skill .thumbnail{
-  padding: 10px 40px;
+  padding: 10px 80px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
@@ -367,6 +369,13 @@ html,body {
 
 .skill__single-part__title{
   font-size: 15px;
+  color: #273f59;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.edu__single-part__title{
+  font-size: 13px;
   color: #273f59;
   margin-bottom: 30px;
   margin-top: 5px;
@@ -488,7 +497,7 @@ html,body {
 .portfolio__single-section{
   position: relative;
   overflow: hidden;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 
 }
 
