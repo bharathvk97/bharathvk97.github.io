@@ -1,0 +1,14 @@
+
+body{font-family:Segoe UI,sans-serif}
+.hero{
+height:100vh;
+background:linear-gradient(135deg,#0f172a,#2563eb);
+}
+.card{
+border:none;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+transition:.3s;
+}
+.card:hover{
+transform:translateY(-8px);
+}
